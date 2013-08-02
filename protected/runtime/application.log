@@ -1,0 +1,784 @@
+2013/08/02 12:10:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:11:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:09 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 's')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:10 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 's')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:11 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'show')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:11 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'show')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:11 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showS')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:12 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showS')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:12 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showSc')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:13 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showSc')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:14 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showScrip')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:14 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showScrip')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:15 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showScripN')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:15 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showScripN')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:16 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showScripName')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:17 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.0".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('0', 'showScripName')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:23 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', 'fa')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:23 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', 'fal')
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:24 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:24 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:24 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:25 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:33 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:34 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:34 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:35 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:35 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:36 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:41 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2013/08/02 12:12:41 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CUrlManager.showScripName".' in /var/www/yiicms/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yiicms/framework/YiiBase.php(220): CComponent->__set('showScripName', false)
+#1 /var/www/yiicms/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/yiicms/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/yiicms/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/yiicms/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:12:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:20:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:20:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:20:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:25:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:25:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:25:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:25:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:25:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:28:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:31:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:31:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:33:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:33:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/index".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/index
+HTTP_REFERER=http://yiicms.loc/admin/category
+---
+2013/08/02 12:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:33:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/index".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/index
+HTTP_REFERER=http://yiicms.loc/admin/index
+---
+2013/08/02 12:33:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/index".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/index
+HTTP_REFERER=http://yiicms.loc/admin/index
+---
+2013/08/02 12:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:33:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/index".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/index
+HTTP_REFERER=http://yiicms.loc/admin/index
+---
+2013/08/02 12:33:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:40:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:45:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:45:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:47:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:48:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:48:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:55:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 12:59:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 15:06:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 15:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 15:31:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 15:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 15:31:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 15:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 15:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 15:39:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/08/02 15:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiicms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiicms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiicms/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yiicms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
