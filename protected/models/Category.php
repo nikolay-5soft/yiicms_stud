@@ -86,4 +86,17 @@ class Category extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+    public static function getCategory()
+    {
+        $models = self::model()->findAll();
+
+        $array = array();
+
+        foreach ($models as $one) {
+            $array[$one->id] = $one->title;
+        }
+
+        return $array;
+    }
 }
