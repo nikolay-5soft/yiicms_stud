@@ -89,14 +89,6 @@ class Category extends CActiveRecord
 
     public static function getCategory()
     {
-        $models = self::model()->findAll();
-
-        $array = array();
-
-        foreach ($models as $one) {
-            $array[$one->id] = $one->title;
-        }
-
-        return $array;
+        return CHtml::listData(self::model()->findAll(),'id','title');
     }
 }

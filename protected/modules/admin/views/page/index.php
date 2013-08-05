@@ -34,12 +34,26 @@ $('.search-form form').submit(function(){
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id',
+		'id'=>array(
+            'name'=>'id',
+            'headerHtmlOptions'=>array('width'=>30),
+        ),
 		'title',
-		'content',
-		'created',
-		'status',
-		'category_id',
+		'created'=>array(
+            'name'=>'created',
+            'value'=>'date("j.m.Y H:i", $data->created)',
+            'filter'=>false,
+        ),
+		'status'=>array(
+            'name'=>'status',
+            'value'=>'($data->status==1)?"Доступно":"Скрыто"',
+            'filter'=>array(0=>"Скрыто",1=>"Доступно"),
+        ),
+		'category_id'=>array(
+            'name'=>'category_id',
+            'value'=>'$data->category->title',
+            'filter'=>Category::getCategory(),
+        ),
 		array(
 			'class'=>'CButtonColumn',
 		),
