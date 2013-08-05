@@ -86,4 +86,9 @@ class Category extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+    public static function getCategory()
+    {
+        return CHtml::listData(self::model()->findAll(),'id','title');
+    }
 }
