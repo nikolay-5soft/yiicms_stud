@@ -32,6 +32,7 @@
 				array('label'=>'Home', 'url'=>array('/site/index')),
 				array('label'=>'Категории', 'url'=>array('/admin/category')),
 				array('label'=>'Cтраницы', 'url'=>array('/admin/page')),
+				array('label'=>'Пользователи', 'url'=>array('/admin/user')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')',
                         'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
