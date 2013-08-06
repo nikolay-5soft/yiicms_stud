@@ -98,4 +98,12 @@ class User extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+    public function beforeSave() {
+        if ($this->isNewRecord) {
+            $this->ban = 0;
+        }
+        $this->password = crypt($this->password);
+        return parent::beforeSave();
+    }
 }

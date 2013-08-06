@@ -51,11 +51,16 @@ class UserController extends Controller
 	}
 
     public function actionPassword($id){
-        $model = $this->loadModel($id);
-        $model->password = $_POST['password'];
-        if($model->save())
-            $this->redirect(array('view','id'=>$model->id));
-        $this->render('password');
+        $model=$this->loadModel($id);
+        /*var_dump($model);
+        var_dump($id);
+        exit;*/
+        if(isset($_POST['password'])) {
+            $model->password=$_POST['password'];
+            if($model->save())
+                $this->redirect(array('view','id'=>$model->id));
+        }
+        $this->render('password', array('model'=>$this->loadModel($id)));
     }
 
 	/**

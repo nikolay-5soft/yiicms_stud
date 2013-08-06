@@ -6,7 +6,7 @@ $this->menu=array(
     array('label'=>'Изменить пользователя', 'url'=>array('update', 'id'=>$model->id)),
 );
 ?>
-Укажите пароль <br />
+Введите новый пароль <br />
 <?php
 echo CHtml::form();
 echo CHtml::textField('password');
